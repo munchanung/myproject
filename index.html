@@ -3,18 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>나의 첫 사이트</title>
+<title>문찬웅 | 자기소개</title>
 <style>
-  body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; background: #f5f7fa; color: #222; }
-  h1 { color: #1a7f37; }
-  .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  body { font-family: sans-serif; max-width: 640px; margin: 0 auto; padding: 40px 20px; background: #f4f7f5; color: #222; line-height: 1.6; }
+  header { text-align: center; margin-bottom: 30px; }
+  h1 { color: #1a7f37; margin-bottom: 4px; }
+  .sub { color: #666; margin-top: 0; }
+  .card { background: white; padding: 20px 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-bottom: 16px; }
+  h2 { font-size: 18px; color: #1a7f37; margin-top: 0; }
+  ul { padding-left: 20px; margin: 0; }
+  .job { margin-bottom: 14px; }
+  .job:last-child { margin-bottom: 0; }
+  .job b { display: block; }
+  .date { color: #888; font-size: 14px; }
+  .tag { display: inline-block; background: #e6f4ea; color: #1a7f37; padding: 4px 10px; border-radius: 20px; margin: 4px 4px 0 0; font-size: 14px; }
+  footer { text-align: center; color: #999; font-size: 13px; margin-top: 30px; }
 </style>
 </head>
 <body>
-  <h1>안녕하세요 👋</h1>
+  <header>
+    <h1>문찬웅 ⚽</h1>
+    <p class="sub">유소년 축구 지도자 · 퍼스널 트레이너</p>
+  </header>
+
   <div class="card">
-    <p>여기에 자기소개를 써보세요.</p>
-    <p>git과 GitHub로 만든 첫 사이트입니다.</p>
+    <h2>학력</h2>
+    <p>가톨릭관동대학교 스포츠재활의학과 졸업 예정</p>
   </div>
+
+  <div class="card">
+    <h2>경력</h2>
+    <div class="job">
+      <b>강릉시체육회 · 전문지도자 (유소년 축구)</b>
+      <span class="date">계약직 · 현재</span>
+    </div>
+    <div class="job">
+      <b>베이직핏 PT샵 · 프리랜서 트레이너</b>
+      <span class="date">2025 ~ 현재</span>
+    </div>
+    <div class="job">
+      <b>라카이 · 라이프가드</b>
+      <span class="date">2026.07.01 ~ 2026.08.31 (여름 시즌)</span>
+    </div>
+    <div class="job">
+      <b>바스투체어 카페 · 아르바이트</b>
+      <span class="date">1년</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>자격증</h2>
+    <span class="tag">전문스포츠지도사 2급 (축구)</span>
+    <span class="tag">운동처방사 1급</span>
+    <span class="tag">수상안전요원</span>
+  </div>
+
+  <div class="card">
+    <h2>요즘 배우는 것</h2>
+    <ul>
+      <li>Git & GitHub</li>
+      <li>웹사이트 만들기 (HTML/CSS)</li>
+    </ul>
+  </div>
+
+  <footer>GitHub Pages로 만든 사이트</footer>
 </body>
 </html>
